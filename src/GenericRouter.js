@@ -45,8 +45,8 @@ export default function App() {
                 <Switch>
                     <Route path="/home" component={Home} />
                     <Route path="/table" component={Table} />
-                    <Route exact path="/chart" component={Chart} />
-                    <Route exact path="/richtext" component={RichText} />
+                    <Route path="/chart" component={Chart} />
+                    <Route path="/richtext" component={RichText} />
                     <Redirect from="/" to="/home" />
 
                 </Switch>
