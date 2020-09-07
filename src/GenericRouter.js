@@ -20,14 +20,6 @@ const RichText = lazy( () => import('./chunked-components/RichText'))
 export default function App() {
 
 
-    /* const loadTable = () => {
-        import('./chunked-components/Table')
-            .then( ({ Table }) => {
-                // use module Table
-
-            })
-    } */
-
     return (
         <BrowserRouter>
             <Suspense fallback={<div>Loading...</div>}>
